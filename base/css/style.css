@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* 你自己的样式 */
+.heatmap1{
+float: left;
+background: rgb(0,255,255);
+color: #1e1e1f;
+font-weight: bold;
+text-overflow: ellipsis;
+padding: 0px 15px ;
+margin:5px 0px 0px 0px;
+height: 20px;
+weight:30px;
+	
+}
+
+
+.heatmap2{
+float: left;
+background: rgb(255, 170, 0);
+color: #1e1e1f;
+font-weight: bold;
+text-overflow: ellipsis;
+padding: 0px 15px;
+margin:5px 0px 0px 0px;
+height: 20px;
+weight:30px;
+
+}
+
+.heatmap3{
+float: left;
+background: rgb(255, 0, 0);
+color: #1e1e1f;
+font-weight: bold;
+text-overflow: ellipsis;
+padding: 0px 15px;
+margin:5px 0px 0px 0px;
+height: 20px;
+weight:30px;
+
+	
+}
+
+
+.worker .ui-tab-item {
+float: left;
+background: none;
+padding: 4px 8px 0;
+color: #1e1e1f;
+font-weight: bold;
+text-overflow: ellipsis;
+white-space: nowrap;
+position: relative;
+}
+
+.ui-item {
+overflow: hidden !important;
+}
+
+
+
+.box-shadow {
+-webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 2px;
+box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 2px;
+}
+.dropDown-menu {
+display: none;
+transition: all 0.3s ease 0s;
+-webkit-transition: all 0.3s ease 0s;
+}
+
+.dropDown-menu li a {
+display: block;
+clear: both;
+border-bottom: 1px solid rgb(242, 242, 242);
+margin-bottom: -1px;
+padding: 0px 20px;
+height: 30px;
+line-height: 30px;
+font-size: 12px;
+text-align: left;
+font-weight: normal;
+white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+.dropDown{display:inline-block}
+.dropDown_A{display:inline-block}
+.dropDown-menu{ display:none;transition: all 0.3s ease 0s}
+.dropDown:focus,.dropDown-menu:focus {outline:0}
+.dropDown-menu li.arrow{ position:absolute;display:block; width:12px; height:8px; margin-top:-13px; margin-left:20%; line-height:0;background:url(../images/icon-jt.png) no-repeat 0 0}
+/*鼠标经过*/
+.dropDown.hover .dropDown_A,.dropDown.open .dropDown_A{text-decoration:none; background-color:transparent;}
+/*打开菜单*/
+.dropDown.open{position:relative;z-index:990}
+.dropDown.open .dropDown-menu{position:absolute;display:inline-block;z-index:1000;top:100%;left:-110px;min-width:200px;background-color:#fff;border:solid 1px #e0e0e0}
+.dropDown.open .dropDown-menu.box-shadow{ border-top-left-radius:0;border-top-right-radius:0}
+.dropDown.open .dropDown-menu.radius{ border-top:none}
+ 
+.dropDown.open .dropdown-menu.r {right:-1px;left:auto}
+.dropDown.open .dropDown-menu li{float:none;display:inline}
+.dropDown-menu li a{display:block;clear: both;border-bottom:solid 1px #f2f2f2;margin-bottom:-1px;padding:6px 15px;text-align:left;line-height:1.5;font-weight: normal;white-space:nowrap}
+.dropDown-menu li:last-child a{ border-bottom:none}
+.dropDown-menu li a:hover,.dropDown-menu li a:focus{background-color:#148cf1;color:#fff;text-decoration:none}
+/*禁用菜单*/
+.dropDown.open .dropDown-menu .disabled a,.dropDown.open .dropdown-menu .disabled a:hover,.dropDown.open .dropdown-menu .disabled a:focus{color:#999;text-decoration:none; cursor:no-drop; background-color:transparent}
+.dropDown.open .dropDown-menu li.divider{ display:block;height:0px; line-height:0px;margin:9px 0;overflow:hidden; border-top:solid 1px #eee}
+
+
+.header-msg {
+width: 350px;
+font-size: 12px;
+border-radius: 2px;
+background-color: #ffffff;
+z-index: 33000;
+}
+
+.dialog-shadow {
+border: 0;
+box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+border: 1px solid #eee \9;
+}
+
+
+.label, .badge {
+display: inline-block;
+padding: 2px 4px;
+font-size: 11.844px;
+font-weight: bold;
+line-height: 14px;
+color: rgb(255, 255, 255);
+white-space: nowrap;
+vertical-align: middle;
+background-color: rgb(153, 153, 153);
+}
+
+.label-danger, .badge-danger {
+background-color: rgb(221, 81, 76);
+}
+
+
+#Hui-msg .badge {
+    position: absolute;
+    z-index: 1;
+    left: 140px;
+    top: 1px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 1px 5px;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+}
+#Hui-msg li {
+    position: absolute;
+    list-style:none; 
+
+    left: 157px;
+    top: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 1px 5px;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+
+}
+
+.tabBar {border-bottom: 1px solid #5A98DE}
+.tabBar span {background-color: #fff; border-color:#5A98DE;color:#5A98DE;cursor: pointer;display: inline-block;float: left;font-weight: bold;height: 30px;line-height: 30px;padding: 0 15px}
+.tabBar span.current{background-color: #5A98DE;color: #fff;}
+.tabCon {display: none;}
+
+/* 高级搜索展开条 */
+.Huifold .item{position:relative}
+.Huifold .item h4{margin:0;font-weight:bold;position:relative;border-top: 1px solid #fff;font-size:15px;line-height:22px;padding:7px 10px;background-color:#eee;cursor:pointer;padding-right:30px}
+.Huifold .item h4 b{position:absolute;display: block; cursor:pointer;right:10px;top:7px;width:16px;height:16px; text-align:center; color:#666}
+.Huifold .item .info{display:none;padding:10px}
+
